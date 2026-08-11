@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "小董随心录网页归档",
+  "version": "0.1.0",
+  "description": "将当前网页保存为可离线打开的 MHTML 归档。",
+  "permissions": ["activeTab", "pageCapture", "downloads"],
+  "action": {
+    "default_title": "保存到小董随心录",
+    "default_popup": "popup.html"
+  }
+}

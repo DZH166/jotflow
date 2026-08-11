@@ -1,0 +1,37 @@
+{
+  "format": "xiaodong-suixinlu-backup",
+  "version": 1,
+  "exportedAt": "2026-08-11T12:00:00.000Z",
+  "records": [
+    {
+      "id": "backup-thought-1",
+      "type": "thought",
+      "content": "从备份恢复的测试记录",
+      "createdAt": "2026-08-11T12:00:00.000Z",
+      "pinned": true
+    },
+    {
+      "id": "backup-snapshot-1",
+      "type": "file",
+      "content": "从备份恢复的离线网页快照",
+      "createdAt": "2026-08-11T12:01:00.000Z",
+      "pinned": false,
+      "snapshot": {
+        "id": "snapshot-backup-1",
+        "title": "离线快照测试页",
+        "originalUrl": "https://example.com/offline-test",
+        "capturedAt": "2026-08-11T12:01:00.000Z",
+        "archiveFileName": "sample.mhtml",
+        "archiveFormat": "mhtml"
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "snapshot-backup-1",
+      "fileName": "sample.mhtml",
+      "mimeType": "application/x-mimearchive",
+      "base64": "RnJvbTogPFNhdmVkIGJ5IOWwj+iRo+maj+W/g+W9lT4KU3ViamVjdDog56a757q/5b+r54Wn5rWL6K+V6aG1CkRhdGU6IE1vbiwgMTEgQXVnIDIwMjYgMTI6MDA6MDAgKzA4MDAKTUlNRS1WZXJzaW9uOiAxLjAKQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvcmVsYXRlZDsgYm91bmRhcnk9Ii0tLS09X05leHRQYXJ0XzAwMF8wMDAwIgoKLS0tLS0tPV9OZXh0UGFydF8wMDBfMDAwMApDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD0idXRmLTgiCkNvbnRlbnQtTG9jYXRpb246IGh0dHBzOi8vZXhhbXBsZS5jb20vb2ZmbGluZS10ZXN0Cgo8IWRvY3R5cGUgaHRtbD48aHRtbD48aGVhZD48dGl0bGU+56a757q/5b+r54Wn5rWL6K+V6aG1PC90aXRsZT48L2hlYWQ+PGJvZHk+PGgxPuemu+e6v+W/q+eFp+a1i+ivlemhtTwvaDE+PHA+6L+Z5piv5LiA5Lu95rWL6K+V5b2S5qGj44CCPC9wPjwvYm9keT48L2h0bWw+Ci0tLS0tLT1fTmV4dFBhcnRfMDAwXzAwMDAtLQo="
+    }
+  ]
+}

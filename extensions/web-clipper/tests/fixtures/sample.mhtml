@@ -1,0 +1,12 @@
+From: <Saved by 小董随心录>
+Subject: 离线快照测试页
+Date: Mon, 11 Aug 2026 12:00:00 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_NextPart_000_0000"
+
+------=_NextPart_000_0000
+Content-Type: text/html; charset="utf-8"
+Content-Location: https://example.com/offline-test
+
+<!doctype html><html><head><title>离线快照测试页</title></head><body><h1>离线快照测试页</h1><p>这是一份测试归档。</p></body></html>
+------=_NextPart_000_0000--
